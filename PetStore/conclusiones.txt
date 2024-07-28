@@ -1,0 +1,26 @@
+###Conclusiones y Hallazgos
+#Hallazgos
+
+El proyecto fue desarrollado en Karate teniendo un conocimiento muy basico en esta herramienta utilizando Selenium para la automatización de pruebas.
+Como tambien investigando para dar una solución completa al ejercicio propuesto.
+Sin embargo, presente dificultades al construir e implementar el journey que me permitiera ejecutar simultaneamente las pruebas del flujo a completar,
+por lo que este mo esta 100% funcional a pesar de haber investigado hay pocas fuentes de como realizarlo,  ya que se debe tener un nivel intermedio u alto
+de la herramienta.
+
+Por otra parte, estas son mis conclusiones:
+
+1. Facilidad de Uso y Configuración:
+Karate: Es fácil de configurar y usar, incluso con conocimientos básicos. La sintaxis es clara y concisa, lo que facilita la escritura y el mantenimiento de las pruebas.
+Simplicidad: La estructura de los archivos .feature y la reutilización de pasos simplifican la creación de pruebas complejas.
+
+Eficiencia en la Ejecución de Pruebas:
+Automatización Completa: Karate permite automatizar completamente las pruebas de servicios REST, desde la creación hasta la actualización y consulta de datos.
+Manejo de Variables y Respuestas: La capacidad de capturar y reutilizar variables y respuestas en diferentes escenarios mejora la eficiencia y reduce la redundancia.
+
+Informes Detallados: Karate genera informes detallados que permiten un análisis exhaustivo de los resultados de las pruebas.
+Lenguaje: Karate utiliza un formato similar a Gherkin, lo que lo hace accesible para usuarios con conocimientos básicos en pruebas de servicios REST.
+Configuración: Karate requiere una configuración mínima en comparación con otros frameworks como Selenium.
+Facilidad de Uso: Karate es más fácil de usar y mantener, especialmente para pruebas de servicios REST.
+Depuración: Karate ofrece herramientas de depuración efectivas y mensajes de error claros.
+Ecosistema: Karate se integra bien con herramientas de CI/CD y permite generar informes detallados de las pruebas.
+En resumen, Karate es una herramienta poderosa y accesible para pruebas de servicios REST, que ofrece una configuración sencilla, de la cual consideraré continuar aprendiendo y/o utilizarlo en futuros proyectos de pruebas de servicios REST.

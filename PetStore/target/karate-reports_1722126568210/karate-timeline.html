@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"src\/test\/java\/Exercise\/Journey\/Crud[1:6]","start":1722126542085,"end":1722126543098,"title":"src\/test\/java\/Exercise\/Journey\/Crud[1:6] 19:29:02.085-19:29:03.098 Create a new pet"},{"id":2,"group":1,"content":"src\/test\/java\/Exercise\/Journey\/Crud[2:15]","start":1722126543103,"end":1722126543110,"title":"src\/test\/java\/Exercise\/Journey\/Crud[2:15] 19:29:03.103-19:29:03.110 Search pet by ID","className":"failed"},{"id":3,"group":1,"content":"src\/test\/java\/Exercise\/Journey\/Crud[3:23]","start":1722126543115,"end":1722126543394,"title":"src\/test\/java\/Exercise\/Journey\/Crud[3:23] 19:29:03.115-19:29:03.394 Update pet exist"},{"id":4,"group":1,"content":"src\/test\/java\/Exercise\/Journey\/Crud[4:32]","start":1722126543398,"end":1722126543703,"title":"src\/test\/java\/Exercise\/Journey\/Crud[4:32] 19:29:03.398-19:29:03.703 Search pet by Status"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
